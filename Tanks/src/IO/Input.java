@@ -10,7 +10,7 @@ import javax.swing.KeyStroke;
 /*
 public class Input  extends JComponent{
 	
-	//аске код
+	//
 	private boolean [] map;
 	
 	public Input(){
@@ -51,7 +51,7 @@ public class Input  extends JComponent{
 }*/
 public class Input  extends JComponent{
 	
-	//аске код
+	//Г Г±ГЄГҐ ГЄГ®Г¤
 	private boolean [] map;
 	
 	public Input(){
