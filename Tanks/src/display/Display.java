@@ -86,14 +86,12 @@ public abstract class Display {
 		content.createBufferStrategy(numBuffers);
 		bufferStrategy = content.getBufferStrategy();
 		
-		
 		created = true;
 	}
 	
 	
 	public static void clear(){
-	
-		Arrays.fill(bufferData,clearColor);
+	     Arrays.fill(bufferData,clearColor);
 	}
 	
 	public static void swapBuffers(){
