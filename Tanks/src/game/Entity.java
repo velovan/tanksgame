@@ -29,8 +29,8 @@ public abstract class Entity {
 
 	public final EntityType type;
 	
-	protected float 		x;
-	protected float 		y;
+	protected float x;
+	protected float y;
 	
 	public Entity(EntityType type, float x, float y){
 		this.type = type;
