@@ -55,16 +55,12 @@ public class Game implements Runnable{
         //sheet = new SprateSheet(atlas.cut(1 * 16,9*16,19,19), 2 , 16);
     	//sprite = new Sprite (sheet, 1);
     	player = new Player(300, 300,  2, 4, atlas);
-    	
-    	
- 
-    	
     }
     
     public synchronized void start(){
     	
     	if(running){
-    		return;
+    	  return;
     	}
     	running = true;
         gameThread = new Thread(this);
