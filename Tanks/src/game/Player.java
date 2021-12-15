@@ -128,7 +128,7 @@ public class Player extends Entity{
 	
 	public Heading heading;
 	public Map<Heading, Sprite> spriteMap;
-    public float scale;
+        public float scale;
 	public float speed;
 	
     public Player(float x, float y, float scale,float speed, TextureAtlas atlas) {
@@ -177,8 +177,7 @@ public class Player extends Entity{
 			newY = 0; 
 		} else if (newY >= Game.HEIGHT - SPRITE_SCALE * scale) { 
 			newY = Game.HEIGHT - SPRITE_SCALE * scale; 
-		} 
- 
+		}  
 		x = newX; 
 		y = newY; 
 	}
