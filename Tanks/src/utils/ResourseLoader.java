@@ -15,8 +15,7 @@ public class ResourseLoader {
 		
 		BufferedImage image = null;
 		
-		try{	
-			
+		try{			
 		   image = ImageIO.read(new File (PATH + fileName));
 			
 		}catch (IOException e){
@@ -34,7 +33,6 @@ public class ResourseLoader{
 	public static BufferedImage loadImage (String fileName){
 		
 		BufferedImage image = null;
-		
 		try {
 			image = ImageIO.read(new File(PATH + fileName));
 		} catch (IOException e) {
