@@ -35,9 +35,10 @@ public abstract class Display {
 	            
 	
 	public static void create (int width, int height, String title, int _clearColor, int numBuffers){
-		/*if (created){
+	        /* if (created){
 			return;
 		}
+		
 		window = new JFrame(title);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		content = new Canvas();
@@ -59,7 +60,7 @@ public abstract class Display {
 		content.createBufferStrategy(numBuffers);
 		bufferStrategy = content.getBufferStrategy();
 		
-		created = true;*/
+		created = true; */
 		
 		if (created){
 			return;
