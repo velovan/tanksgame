@@ -13,10 +13,9 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import javax.swing.JFrame;
-
 import IO.Input;
 
-public abstract class Display {
+public abstract class Display{
 	
 	private static boolean created = false;
 	private static JFrame window;
@@ -31,14 +30,12 @@ public abstract class Display {
 	
 	/*temp
 	private static float delta = 0;
-	tmp end*/
-	            
+	tmp end*/	            
 	
 	public static void create (int width, int height, String title, int _clearColor, int numBuffers){
 	        /* if (created){
 			return;
-		}
-		
+		}	
 		window = new JFrame(title);
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		content = new Canvas();
@@ -62,8 +59,8 @@ public abstract class Display {
 		
 		created = true; */
 		
-		if (created){
-			return;
+		if(created){
+		   return;
 		}
 		
 		window = new JFrame(title);
