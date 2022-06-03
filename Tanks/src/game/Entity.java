@@ -5,7 +5,7 @@ import java.awt.image.BufferedImageFilter;
 
 import IO.Input;
 /*
-public abstract class Entity {
+public abstract class Entity{
 
 	public final EntityType type;
 	
@@ -20,7 +20,6 @@ public abstract class Entity {
 	}
 
 	public abstract void update (Input input);
-	
 	public abstract void render(Graphics2D g);
 }*/
 
@@ -28,7 +27,6 @@ public abstract class Entity {
 public abstract class Entity {
 
 	public final EntityType type;
-	
 	protected float x;
 	protected float y;
 	
@@ -39,7 +37,6 @@ public abstract class Entity {
 	}
 	
 	public abstract void update (Input input);
-	
 	public abstract  void render (Graphics2D g);
 	
 }
