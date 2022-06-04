@@ -1,6 +1,6 @@
 package game;
 
-public enum EntityType {
+public enum EntityType{
 
 	Player;	
 }
