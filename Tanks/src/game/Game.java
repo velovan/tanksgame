@@ -46,7 +46,6 @@ public class Game implements Runnable{
     	Display.create(WIDTH, HEIGHT, TITLE, CLEAR_COLOR, NUM_BUFFERS);
     	graphics = Display.getGraphics();
     			
-    	
     	input = new Input();
     	Display.addInputListener(input);
     	
@@ -70,21 +69,20 @@ public class Game implements Runnable{
     public synchronized void stop(){
     	
         if(!running){
-        	return;
+           return;
         }
         running = false;
-        try {
-			gameThread.join();
+        try{
+	     gameThread.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+	     // TODO Auto-generated catch block
+             e.printStackTrace();
 		}	
 	}
 	
 	private void update(){
 		
 		player.update(input);
-
 	}
 	
 	private void render(){
