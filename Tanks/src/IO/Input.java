@@ -58,20 +58,20 @@ public class Input  extends JComponent{
 			final int KEY_CODE = i;
 			
 			getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(i, 0, false), i * 2);
-			getActionMap().put(i * 2, new AbstractAction() {
+			getActionMap().put(i * 2, new AbstractAction(){
 				
 				@Override
-				public void actionPerformed(ActionEvent arg0) {
+				public void actionPerformed(ActionEvent arg0){
 					map[KEY_CODE] = true;
 				
 				}
 			});
 			
 			getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(i, 0, true), i * 2 + 1);
-			getActionMap().put(i * 2 + 1, new AbstractAction() {
+			getActionMap().put(i * 2 + 1, new AbstractAction(){
 				
 				@Override
-				public void actionPerformed(ActionEvent arg0) {
+				public void actionPerformed(ActionEvent arg0){
 					map[KEY_CODE] = false;
 					
 				}
