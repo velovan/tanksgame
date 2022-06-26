@@ -86,7 +86,6 @@ public abstract class Display{
 		created = true;
 	}
 	
-	
 	public static void clear(){
 	     Arrays.fill(bufferData,clearColor);
 	}
