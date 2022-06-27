@@ -78,11 +78,12 @@ public class Input  extends JComponent{
 			});
 		}		
 	}
-  public boolean [] getMap(){
-		return Arrays.copyOf(map, map.length);
+    public boolean [] getMap(){
+	  return Arrays.copyOf(map, map.length);
 	}
-  public  boolean getKey(int keyCode){
-		return map[keyCode];
+	
+    public  boolean getKey(int keyCode){
+	  return map[keyCode];
 	}
 }
 	 
