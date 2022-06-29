@@ -24,7 +24,7 @@ public abstract class Entity{
 }*/
 
 
-public abstract class Entity {
+public abstract class Entity{
 
 	public final EntityType type;
 	protected float x;
