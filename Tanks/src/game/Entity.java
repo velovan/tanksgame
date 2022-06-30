@@ -23,7 +23,6 @@ public abstract class Entity{
 	public abstract void render(Graphics2D g);
 }*/
 
-
 public abstract class Entity{
 
 	public final EntityType type;
@@ -38,5 +37,4 @@ public abstract class Entity{
 	
 	public abstract void update (Input input);
 	public abstract  void render (Graphics2D g);
-	
 }
