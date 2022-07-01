@@ -12,7 +12,7 @@ import graphics.SprateSheet;
 import graphics.Sprite;
 import graphics.TextureAtlas;
 /*
-		public class Player extends Entity { 
+		public class Player extends Entity{ 
 			public static final int SPRITE_SCALE        = 16;
 			public static final int SPRITES_PER_HEADING = 1;
 			
@@ -37,7 +37,7 @@ import graphics.TextureAtlas;
 		        }
 			} 
 		
-	     	private Heading                heading;
+	     	        private Heading                heading;
 			private Map <Heading, Sprite>  spriteMap;
 			private float                  scale;
 			private float                  speed;
