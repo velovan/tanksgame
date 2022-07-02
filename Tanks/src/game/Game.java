@@ -57,7 +57,6 @@ public class Game implements Runnable{
     }
     
     public synchronized void start(){
-    	
     	if(running){
     	  return;
     	}
@@ -80,8 +79,7 @@ public class Game implements Runnable{
 		}	
 	}
 	
-	private void update(){
-		
+	private void update(){	
 		player.update(input);
 	}
 	
@@ -104,15 +102,12 @@ public class Game implements Runnable{
 		long count = 0;
 		long lastTime = Time.get();
 		
-		while(running){
-			
+		while(running){	
 	    	long now = Time.get();
 			long elapsedTime = now - lastTime;
 			lastTime = now;
 	    	count += elapsedTime;
-	    	
-			delta1 += (elapsedTime / UPDATE_INTERVAL); 
-			
+			delta1 += (elapsedTime / UPDATE_INTERVAL);
 			boolean render1 = false;
 			
 			while(delta1 > 1){
