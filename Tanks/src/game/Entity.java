@@ -13,7 +13,6 @@ public abstract class Entity{
 	protected float y;
 	
 	protected Entity (EntityType type, float x, float y){
-		
 		this.type = type;
 		this.x = x;
 		this.y = y;
