@@ -29,11 +29,11 @@ public class ResourseLoader{
 	public static BufferedImage loadImage (String fileName){
 		
 		BufferedImage image = null;
-		try {
-			image = ImageIO.read(new File(PATH + fileName));
+		try{
+		   image = ImageIO.read(new File(PATH + fileName));
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		   // TODO Auto-generated catch block
+		   e.printStackTrace();
 		}
 		
 		return image;
