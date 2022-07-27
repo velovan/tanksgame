@@ -91,10 +91,9 @@ public abstract class Display{
 	}
 	
 	public static void swapBuffers(){
-	
-		Graphics g = bufferStrategy.getDrawGraphics();
-		g.drawImage(buffer, 0, 0, null);
-		bufferStrategy.show();
+	     Graphics g = bufferStrategy.getDrawGraphics();
+	     g.drawImage(buffer, 0, 0, null);
+	     bufferStrategy.show();
 	}
 	
 	public static Graphics2D getGraphics(){
