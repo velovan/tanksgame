@@ -44,13 +44,13 @@ public class Input  extends JComponent{
 		return map[keyCode];
 	}
 }*/
+
 public class Input  extends JComponent{
 	
 	//àñêå êîä
 	private boolean [] map;
 	
-	public Input(){
-		
+	public Input(){	
 		map = new boolean[256];
 		
 		for(int i = 0; i < map.length; i++){
