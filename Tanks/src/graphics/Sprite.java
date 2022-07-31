@@ -26,8 +26,8 @@ public class Sprite{
 	private float scale;
 	
 	public Sprite(SprateSheet sheet, float scale){
-		this.sheet = sheet;
-		this.scale =scale;
+	    this.sheet = sheet;
+ 	    this.scale =scale;
 	}
 	
 	public void render (Graphics2D g, float x, float y){
