@@ -4,7 +4,7 @@ import java.awt.image.BufferedImage;
 
 import utils.ResourseLoader;
 /*
-public class TextureAtlas {
+public class TextureAtlas{
 	
 	BufferedImage image;
 	
