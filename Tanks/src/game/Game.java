@@ -66,7 +66,6 @@ public class Game implements Runnable{
     }
     
     public synchronized void stop(){
-    	
         if(!running){
            return;
         }
@@ -93,7 +92,7 @@ public class Game implements Runnable{
 	}
 	
 	public void run() {	
-	    int fps  = 0;
+	        int fps  = 0;
 		int upd  = 0;
 		int updl = 0;
 		
