@@ -33,6 +33,7 @@ public abstract class Display{
 	tmp end*/	            
 	
 	public static void create (int width, int height, String title, int _clearColor, int numBuffers){
+		
 	        /* if (created){
 			return;
 		}	
