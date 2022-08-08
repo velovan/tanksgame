@@ -36,8 +36,8 @@ public class Game implements Runnable{
 	private Input              input;
 	private TextureAtlas       atlas;
 	
-	//private SprateSheet        sheet;
-	//private Sprite             sprite;
+	//private SprateSheet      sheet;
+	//private Sprite           sprite;
 	
 	private Player             player;
 	
