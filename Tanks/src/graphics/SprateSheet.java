@@ -37,7 +37,7 @@ public class SprateSheet{
 		this.sprite = sprite;
 		this.spriteScale = spriteScale;
 	this.spriteWidth = sheet.getWidth() / spriteScale;
-}
+        }
 	
 	public BufferedImage getSprite (int index){
 		index = index % spriteScale;
@@ -46,4 +46,5 @@ public class SprateSheet{
 		
 	  return sheet.getSubimage(x, y, spriteScale, spriteScale);
 	}
+	
 }
