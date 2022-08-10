@@ -109,10 +109,10 @@ public abstract class Display{
 	}
 	
 	public static void setTitle (String title){
-	    window.setTitle(title);
+	     window.setTitle(title);
 	}
 	
 	public static void addInputListener (Input input){
-	    window.add(input);
+	     window.add(input);
 	}
 }
