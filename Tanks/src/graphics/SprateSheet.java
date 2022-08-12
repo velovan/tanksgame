@@ -33,8 +33,8 @@ public class SprateSheet{
 	public int spriteWidth;
 	
 	public SprateSheet(BufferedImage sheet, int sprite, int spriteScale){
-		this.sheet = sheet;
-		this.sprite = sprite;
+	        this.sheet = sheet;
+	        this.sprite = sprite;
 		this.spriteScale = spriteScale;
 	this.spriteWidth = sheet.getWidth() / spriteScale;
         }
