@@ -73,8 +73,8 @@ public class Game implements Runnable{
         try{
 	     gameThread.join();
 		} catch (InterruptedException e) {
-	     // TODO Auto-generated catch block
-             e.printStackTrace();
+	      // TODO Auto-generated catch block
+              e.printStackTrace();
 		}	
 	}
 	
