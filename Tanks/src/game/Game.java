@@ -85,7 +85,6 @@ public class Game implements Runnable{
 	private void render(){
 		Display.clear();
 	//sprite.render(graphics, x, y);
-	
 		player.render(graphics);
 		Display.swapBuffers();
 	}
