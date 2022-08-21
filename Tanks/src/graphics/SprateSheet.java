@@ -17,7 +17,6 @@ public class SprateSheet{
 	}
 	
 	public BufferedImage getSprite (int index){
-		
 	    index = index % spriteScale;
 	    int x = index % spriteWidth * spriteScale;
 	    int y = index / spriteWidth * spriteScale;
