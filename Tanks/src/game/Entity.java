@@ -4,8 +4,9 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImageFilter;
 
 import IO.Input;
+
 /*
-public abstract class Entity{
+public abstract class Entity {
 
 	public final EntityType type;
 	
