@@ -9,7 +9,7 @@ public class Sprite{
    private SprateSheet sheet;
    private float       scale;
    
-   public Sprite (SprateSheet sheet, float scale {
+   public Sprite (SprateSheet sheet, float scale{
 	   this.sheet = sheet;
 	   this.scale = scale;
    }
