@@ -57,7 +57,7 @@ public abstract class Display{
 		
 		content.createBufferStrategy(numBuffers);
 		bufferStrategy = content.getBufferStrategy();
-		created = true; */
+		created = true;  */
 		
 		if(created){
 		   return;
