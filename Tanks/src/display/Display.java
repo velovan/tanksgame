@@ -15,7 +15,7 @@ import java.util.Arrays;
 import javax.swing.JFrame;
 import IO.Input;
 
-public abstract class Display{
+public abstract class Display {
 	
 	private static boolean created = false;
 	private static JFrame window;
@@ -87,7 +87,7 @@ public abstract class Display{
 		created = true;
 	}
 	
-	public static void clear(){
+	public static void clear() {
 	     Arrays.fill(bufferData,clearColor);
 	}
 	
