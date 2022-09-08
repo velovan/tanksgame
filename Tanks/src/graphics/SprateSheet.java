@@ -2,7 +2,7 @@ package graphics;
 
 import java.awt.image.BufferedImage;
 /*
-public class SprateSheet{
+public class SprateSheet {
 	
 	BufferedImage sheet;
 	public int sprite;
@@ -24,7 +24,7 @@ public class SprateSheet{
 	}
 }*/
 
-public class SprateSheet{
+public class SprateSheet {
 	
 	public BufferedImage sheet;
 	public int sprite;
