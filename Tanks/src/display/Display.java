@@ -34,7 +34,7 @@ public abstract class Display {
 	
 	public static void create (int width, int height, String title, int _clearColor, int numBuffers){
 		
-	        /* if (created){
+	        /* if (created) {
 			return;
 		}	
 		window = new JFrame(title);
