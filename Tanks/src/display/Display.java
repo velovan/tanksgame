@@ -32,9 +32,9 @@ public abstract class Display {
 	private static float delta = 0;
 	tmp end*/	            
 	
-	public static void create (int width, int height, String title, int _clearColor, int numBuffers) {
+	public static void create (int width, int height, String title, int _clearColor, int numBuffers){
 		
-	        /* if (created) {
+	        /* if (created){
 			return;
 		}	
 		window = new JFrame(title);
@@ -101,18 +101,18 @@ public abstract class Display {
 	     return (Graphics2D) bufferGraphics;
 	}
 	
-	public static void destroy(){
+	public static void destroy() {
 	     if(created){
 	       return;
 	     }
 	     window.dispose();
 	}
 	
-	public static void setTitle (String title){
+	public static void setTitle (String title) {
 	     window.setTitle(title);
 	}
 	
-	public static void addInputListener (Input input){
+	public static void addInputListener (Input input) {
 	     window.add(input);
 	}
 }
