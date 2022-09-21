@@ -14,7 +14,7 @@ import graphics.Sprite;
 import graphics.TextureAtlas;
 import utils.Time;
 
-public class Game implements Runnable{
+public class Game implements Runnable {
 
 	//int width, int height, String title, int _clearColor, int numBuffers
 	
@@ -41,7 +41,7 @@ public class Game implements Runnable{
 	
 	private Player             player;
 	
-    public Game(){	
+    public Game() {	
     	running = false;
     	Display.create(WIDTH, HEIGHT, TITLE, CLEAR_COLOR, NUM_BUFFERS);
     	graphics = Display.getGraphics();
@@ -56,7 +56,7 @@ public class Game implements Runnable{
     	player = new Player(300, 300,  2, 4, atlas);
     }
     
-    public synchronized void start(){
+    public synchronized void start() {
     	if(running){
     	  return;
     	}
