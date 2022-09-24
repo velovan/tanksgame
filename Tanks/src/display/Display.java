@@ -87,17 +87,17 @@ public abstract class Display{
 		created = true;
 	}
 	
-	public static void clear() {
+	public static void clear(){
 	     Arrays.fill(bufferData,clearColor);
 	}
 	
-	public static void swapBuffers() {
+	public static void swapBuffers(){
 	     Graphics g = bufferStrategy.getDrawGraphics();
 	     g.drawImage(buffer, 0, 0, null);
 	     bufferStrategy.show();
 	}
 	
-	public static Graphics2D getGraphics(){
+	public static Graphics2D getGraphics() {
 	     return (Graphics2D) bufferGraphics;
 	}
 	
