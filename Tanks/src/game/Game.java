@@ -14,7 +14,7 @@ import graphics.Sprite;
 import graphics.TextureAtlas;
 import utils.Time;
 
-public class Game implements Runnable {
+public class Game implements Runnable{
 
 	//int width, int height, String title, int _clearColor, int numBuffers
 	
@@ -65,7 +65,7 @@ public class Game implements Runnable {
         gameThread.start();
     }
     
-    public synchronized void stop(){
+    public synchronized void stop() {
         if(!running){
            return;
         }
