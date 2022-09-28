@@ -14,7 +14,7 @@ import graphics.Sprite;
 import graphics.TextureAtlas;
 import utils.Time;
 
-public class Game implements Runnable{
+public class Game implements Runnable {
 
 	//int width, int height, String title, int _clearColor, int numBuffers
 	
@@ -82,7 +82,7 @@ public class Game implements Runnable{
 		player.update(input);
 	}
 	
-	private void render(){
+	private void render() {
 		Display.clear();
 	//sprite.render(graphics, x, y);
 		player.render(graphics);
