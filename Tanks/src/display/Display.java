@@ -59,7 +59,7 @@ public abstract class Display{
 		bufferStrategy = content.getBufferStrategy();
 		created = true;  */
 		
-		if(created){
+		if(created) {
 		   return;
 		}
 		
@@ -87,7 +87,7 @@ public abstract class Display{
 		created = true;
 	}
 	
-	public static void clear(){
+	public static void clear() {
 	     Arrays.fill(bufferData,clearColor);
 	}
 	
