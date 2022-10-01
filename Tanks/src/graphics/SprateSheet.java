@@ -2,7 +2,7 @@ package graphics;
 
 import java.awt.image.BufferedImage;
 /*
-public class SprateSheet {
+public class SprateSheet{
 	
 	BufferedImage sheet;
 	public int sprite;
@@ -38,7 +38,7 @@ public class SprateSheet {
 	this.spriteWidth = sheet.getWidth() / spriteScale;
         }
 	
-	public BufferedImage getSprite (int index){
+	public BufferedImage getSprite (int index) {
 		index = index % spriteScale;
 		int x = index % spriteWidth * spriteScale;
 		int y = index / spriteWidth * spriteScale;
