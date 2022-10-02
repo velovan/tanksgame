@@ -8,7 +8,7 @@ import javax.swing.AbstractAction;
 import javax.swing.JComponent;
 import javax.swing.KeyStroke;
 /*
-public class Input  extends JComponent{
+public class Input  extends JComponent {
 	
 	private boolean [] map;
 	public Input(){
@@ -45,7 +45,7 @@ public class Input  extends JComponent{
 	}
 }*/
 
-public class Input  extends JComponent{
+public class Input  extends JComponent {
 	
 	//àñêå êîä
 	private boolean [] map;
