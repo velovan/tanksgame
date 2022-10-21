@@ -1,6 +1,6 @@
 package utils;
 
-public class Tim {
+public class Time {
 	
     public static final long SECOND = 1000000000l; 
    
