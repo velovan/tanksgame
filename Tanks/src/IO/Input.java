@@ -8,13 +8,13 @@ import javax.swing.AbstractAction;
 import javax.swing.JComponent;
 import javax.swing.KeyStroke;
 /*
-public class Input  extends JComponent{
+public class Input  extends JComponent {
 	
 	private boolean [] map;
 	public Input(){
 		
 		map = new boolean[256];
-		for(int i = 0; i < map.length; i++) {
+		for(int i = 0; i < map.length; i++){
 			final int KEY_CODE = i;
 			getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(KeyStroke.getKeyStroke(i, 0, false), i * 2);
 			getActionMap().put(i * 2, new AbstractAction(){
