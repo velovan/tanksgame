@@ -15,7 +15,7 @@ import java.util.Arrays;
 import javax.swing.JFrame;
 import IO.Input;
 
-public abstract class Display {
+public abstract class Display{
 	
 	private static boolean created = false;
 	private static JFrame window;
