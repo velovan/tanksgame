@@ -7,7 +7,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 /*
-public class ResourseLoader{
+public class ResourseLoader {
 	
 	public static final String PATH = "res/";
 	
@@ -22,7 +22,7 @@ public class ResourseLoader{
 	}
 }*/
 
-public class ResourseLoader{
+public class ResourseLoader {
 	
 	public static final String PATH = "res/";
 	
