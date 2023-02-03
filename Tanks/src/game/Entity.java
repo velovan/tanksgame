@@ -6,14 +6,14 @@ import java.awt.image.BufferedImageFilter;
 import IO.Input;
 
 /*
-public abstract class Entity {
+public abstract class Entity{
 
 	public final EntityType type;
 	
 	protected float x;
 	protected float y;
 	
-	protected Entity (EntityType type, float x, float y){
+	protected Entity (EntityType type, float x, float y) {
 		this.type = type;
 		this.x = x;
 		this.y = y;
