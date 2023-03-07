@@ -4,11 +4,11 @@ import java.awt.image.BufferedImage;
 
 import utils.ResourseLoader;
 /*
-public class TextureAtlas {
+public class TextureAtlas{
 	
 	BufferedImage image;
 	
-	public TextureAtlas(String imageName) {
+	public TextureAtlas(String imageName){
 	        image = ResourseLoader.loadImage(imageName);
 	}
 	
