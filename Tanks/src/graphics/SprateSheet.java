@@ -2,14 +2,14 @@ package graphics;
 
 import java.awt.image.BufferedImage;
 /*
-public class SprateSheet{
+public class SprateSheet {
 	
 	BufferedImage sheet;
 	public int sprite;
 	public int spriteScale;
 	public int spriteWidth;
 	
-	public SprateSheet(BufferedImage sheet, int sprite, int spriteScale) {
+	public SprateSheet(BufferedImage sheet, int sprite, int spriteScale){
 		this.sheet = sheet;
 		this.sprite = sprite;
 		this.spriteScale = spriteScale;
