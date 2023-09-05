@@ -4,7 +4,7 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
 /*
-public class Sprite {
+public class Sprite{
 
    private SprateSheet sheet;
    private float       scale;
